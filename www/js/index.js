@@ -34,8 +34,8 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         //app.receivedEvent('deviceready');
-        var ref = window.open('http://apache.org', '_blank', 'location=yes');
-        //window.open('http://m.qreal.com/site/0', '_blank', 'location=yes');
+        //var ref = window.open('http://apache.org', '_system', 'location=yes');
+        var ref = window.open('http://m.qreal.com/site/0', '_system', 'location=yes');
          
     },
     // Update DOM on a Received Event

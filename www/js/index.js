@@ -35,9 +35,9 @@ var app = {
     onDeviceReady: function() {
         //app.receivedEvent('deviceready');
         //var ref = window.open('http://apache.org', '_system', 'location=yes');
-       // var ref = window.open('http://m.qreal.com/dmh/site/0', '_blank', 'location=yes');
+        var ref = window.open('http://m.qreal.com/dmh/site/0', '_blank', 'location=yes');
         
-        window.plugins.barcodeScanner.scan( function(result) {
+      /*  window.plugins.barcodeScanner.scan( function(result) {
         alert("We got a barcode\n" +
                   "Result: " + result.text + "\n" +
                   "Format: " + result.format + "\n" +
@@ -46,6 +46,7 @@ var app = {
         alert("Scanning failed: " + error);
                 }
     );
+    */  
         
          
     },

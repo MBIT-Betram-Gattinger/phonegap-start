@@ -93,6 +93,7 @@
      
    <gap:plugin name="com.phonegap.plugins.childbrowser" /> 
         <plugin name="InAppBrowser" />
+        <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
     <gap:plugin name="com.phonegap.plugins.barcodescanner" />
     <!--
         <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/
